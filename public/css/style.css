@@ -1,11 +1,35 @@
-.to-do-input{
+#to_do_input{
     border: none;
 }
 
-.to-do-input:focus{
+#to_do_input:focus{
     outline: none;
 }
-.to-do-input::placeholder{
+#to_do_input::placeholder{
     font-size: 25px;
     opacity: 40%;
+}
+#to_do_item{
+    border: none;
+}
+
+#to_do_checkbox{
+
+}
+.to_do_item{
+    /*cursor: pointer;*/
+}
+.to_do_item:disabled{
+    background-color: white;
+    border: none;
+}
+
+.noteditiable{
+    opacity: 50%;
+}
+
+.edititem{
+    width: 95%;
+    border: 1px solid #eeeeee;
+    padding: 10px;
 }

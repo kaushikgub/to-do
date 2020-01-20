@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('get/all/data', 'TodoController@getAllData');
+
+Route::post('todo/save', 'TodoController@save');
+
+Route::post('todo/update/status', 'TodoController@updateStatus');
+
+Route::get('todo/delete', 'TodoController@delete');
