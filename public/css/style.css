@@ -1,0 +1,11 @@
+.to-do-input{
+    border: none;
+}
+
+.to-do-input:focus{
+    outline: none;
+}
+.to-do-input::placeholder{
+    font-size: 25px;
+    opacity: 40%;
+}
