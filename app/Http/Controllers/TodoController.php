@@ -8,11 +8,7 @@ use Illuminate\Http\Request;
 class TodoController extends Controller
 {
     public function getAllData(Request $request){
-        if ($request->get('status') == 'All'){
-            $todos = Todo::all();
-            return response()->json($todos);
-        }
-        $todos = Todo::where('status', $request->get('status'))->get();
+        $todos = Todo::all();
         return response()->json($todos);
     }
 

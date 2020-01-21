@@ -26,6 +26,7 @@
 
 .noteditiable{
     opacity: 50%;
+    text-decoration: line-through;
 }
 
 .edititem{
